@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechCon 2024 - The Premier Technology Conference">
+    <title>TechCon 2024 - Home</title>
+    <style>
+        /* Basic reset and modern styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #3498db;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .hero-section {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .video-container {
+            max-width: 800px;
+            margin: 2rem auto;
+        }
+
+        video {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Accessibility improvements */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #2c3e50;
+            color: white;
+            padding: 8px;
+            z-index: 100;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <h1>TechCon 2024</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <section class="hero-section">
+            <h2>Welcome to TechCon 2024</h2>
+            <p>Join us for the most anticipated technology conference of the year. TechCon 2024 brings together industry leaders, innovators, and technology enthusiasts for three days of inspiring talks, workshops, and networking opportunities. Discover the latest trends, connect with like-minded professionals, and be part of shaping the future of technology.</p>
+        </section>
+
+        <section class="video-container">
+            <h2>Conference Promotional Video</h2>
+            <video controls poster="conference-poster.jpg">
+                <source src="conference-video.mp4" type="video/mp4">
+                <track src="subtitles-en.vtt" kind="subtitles" srclang="en" label="English" default>
+                Your browser does not support the video tag.
+            </video>
+            <p class="video-description">Watch our promotional video to learn more about TechCon 2024 and what to expect at this year's conference.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2024 TechCon. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
